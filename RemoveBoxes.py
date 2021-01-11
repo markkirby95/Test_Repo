@@ -418,9 +418,3 @@ result = call_ocr(DATA_PATH, active_file, 'en', Config.REGION, Config.SUBSCRIPTI
 best_score = {}
 best_score, top_score = score_and_rank(active_file, 'X', result, best_score)
 
-
-# In[1]:
-
-
-print('hello')
-
